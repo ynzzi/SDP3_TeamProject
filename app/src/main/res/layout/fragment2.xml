@@ -6,10 +6,11 @@
     tools:context=".Fragment2">
 
     <!-- TODO: Update blank fragment layout -->
-    <Button
-        android:id="@+id/button"
+    <fragment
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="두 번째" />
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        tools:context=".MapsActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
 
 </LinearLayout>
